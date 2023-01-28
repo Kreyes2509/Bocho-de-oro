@@ -1,0 +1,167 @@
+<div class="amarillo">
+  <h6 class="info">vocho de oro</h6>
+</div>
+<div class="blanco">
+  <a routerLink="/login"><img class="log" src="assets/log.png" alt=""></a>
+</div>
+
+<div [ngSwitch]="valor">
+
+  <div *ngSwitchCase="1">
+    <div class="grisoscuro">
+      <a routerLink="/dashAdmin"><img class="imagen" src="assets/homero.jpg" alt=""></a>
+      <h3 class="homerotext">Homero Simpson</h3>
+    </div>
+
+    <div class="negro">
+      <a style="text-decoration: none;" class="text1" routerLink="/sucursal">Sucursales</a>
+      <a style="text-decoration: none;" class="text2" routerLink="/proveedores">Proveedores</a>
+      <a style="text-decoration: none;" class="text3" routerLink="/automoviles">Automoviles</a>
+      <a style="text-decoration: none;" class="text4" routerLink="/lotes">Lotes</a>
+      <a style="text-decoration: none;" class="text5" routerLink="/clientes">Clientes</a>
+      <a style="text-decoration: none;" class="text6" routerLink="/ventas">Ventas</a>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="2">
+
+    <div class="grisoscuro">
+      <a routerLink="/dashEmpleado"><img class="imagen" src="assets/cartman.jpg" alt=""></a>
+      <h3 class="cartmantext">Eric Cartman</h3>
+    </div>
+
+    <div class="negro">
+      <a style="text-decoration: none;" class="text1" routerLink="/automoviles">Automoviles</a>
+      <a style="text-decoration: none;" class="text2" routerLink="/clientes">Clientes</a>
+      <a style="text-decoration: none;" class="text3" routerLink="/ventas">Ventas</a>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="fondogris">
+
+  <div class="row mt-3">
+    <div class="col-12 col-lg-8 offset-0 offset-lg-2">
+      <h1>Clientes</h1>
+    </div>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col-12 col-lg-8 offset-0 offset-lg-2">
+      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Añadir
+      </button>
+    </div>
+  </div>
+
+
+<div class="row mt-3">
+    <div class="col-12 col-lg-8 offset-0 offset-lg-2">
+      <div class="table-responsive">
+        <div>
+          <table class="table table-bordered table-hover table-warning">
+            <thead><tr><th>NOMBRE</th><th>APELLIDO PATERNO</th><th>APELLIDO MATERNO</th><th>RFC</th><th>TELEFONO</th><th>CORREO</th><th>DIRECCION</th><th>NUMERO EXTERIOR</th><th>CODIGO POSTAL</th><th>CIUDAD</th><th>ESTADO</th><th>SALARIO MENSUAL</th><th>EMPRESA</th><th>TELEFONO DE LA EMPRESA</th><th>ESTATUS EN EL BURO DE CREDITO</th><th>ACTUALIZAR</th><th>ELIMINAR</th></tr></thead>
+            <tbody class="table-group-divider">
+              <tr class="table-light">
+                <td>Abel</td>
+                <td>Chicharito</td>
+                <td>Hernandez</td>
+                <td>32ioejknswf</td>
+                <td>8714579081</td>
+                <td>abelchicharito@gmail.com</td>
+                <td>la perla</td>
+                <td>#1907</td>
+                <td>27054</td>
+                <td>Torreon</td>
+                <td>Coahuila</td>
+                <td>40,000</td>
+                <td>Zaro</td>
+                <td>1200394344</td>
+                <td>Activo</td>
+                <td><img data-bs-toggle="modal" data-bs-target="#updateModal" class="iconup" src="assets/iconupdate.png" alt=""></td>
+                <td><img class="iconup" src="assets/delete.png" alt=""></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Añadir clientes</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <form>
+          <input type="text"class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Apellido paterno" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Apellido materno" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="RFC" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Telefono" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Correo" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Direccion" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Numero exterior" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Codigo pastal" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Ciudad" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Estado" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Salario mensual" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Empresa" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Telefono de la empresa" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Estatus en el buro de credito" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-warning" type="button">Añadir</button>
+          </div>
+         </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2-->
+<div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Actualizar clientes</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <form>
+          <input type="text"class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Apellido paterno" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Apellido materno" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="RFC" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Telefono" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Correo" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Direccion" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Numero exterior" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Codigo pastal" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Ciudad" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Estado" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Salario mensual" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Empresa" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Telefono de la empresa" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <input type="text"class="form-control" placeholder="Estatus en el buro de credito" aria-label="Username" aria-describedby="basic-addon1"required><br>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-warning" type="button">Añadir</button>
+          </div>
+         </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+

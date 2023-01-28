@@ -1,0 +1,466 @@
+.amarillo {
+  position: absolute;
+  width: 291px;
+  height: 73px;
+  left: 0px;
+  top: 0px;
+
+  background: #D5B303;
+}
+
+.info {
+  position: absolute;
+  width: 186px;
+  height: 36px;
+  left: 46px;
+  top: 17px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.blanco {
+  position: absolute;
+  width: 1030px;
+  height: 73px;
+  left: 291px;
+  top: 0px;
+
+  background: #FFFFFF;
+}
+
+.grisoscuro {
+  position: absolute;
+  width: 291px;
+  height: 350px;
+  left: 0px;
+  top: 73px;
+
+  background: #292626;
+}
+
+.negro {
+  position: absolute;
+  width: 291px;
+  height: 393px;
+  left: 0px;
+  top: 423px;
+
+  background: #000000;
+}
+
+.imagen
+{
+  position: absolute;
+  width: 244px;
+  height: 244px;
+  left: 24px;
+  top: 38px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+}
+
+.fondogris {
+  position: absolute;
+  width: 1030px;
+  height: 743px;
+  left: 291px;
+  top: 73px;
+
+  background: #D9D9D9;
+}
+
+.card1 {
+  position: absolute;
+  width: 276px;
+  height: 339px;
+  left: 20px;
+  top: 20px;
+
+  background: #FFFFFF;
+}
+
+.img1 {
+  position: absolute;
+  width: 243px;
+  height: 168px;
+  left: 17px;
+  top: 10px;
+}
+
+.h6 {
+  position: absolute;
+  width: 117px;
+  height: 24px;
+  left: 80px;
+  top: 190px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.modelo1 {
+  position: absolute;
+  width: 80px;
+  height: 24px;
+  left: 20px;
+  top: 235px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.precio1 {
+  position: absolute;
+  width: 110px;
+  height: 24px;
+  left: 170px;
+  top: 235px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.btn1 {
+  position: absolute;
+  width: 120px;
+  height: 41px;
+  left: 70px;
+  top: 280px;
+
+  background: #D5B303;
+}
+
+.card2 {
+  position: absolute;
+  width: 276px;
+  height: 339px;
+  left: 310px;
+  top: 20px;
+
+  background: #FFFFFF;
+}
+.card3 {
+  position: absolute;
+  width: 276px;
+  height: 339px;
+  left: 600px;
+  top: 20px;
+
+  background: #FFFFFF;
+}
+.card4 {
+  position: absolute;
+  width: 276px;
+  height: 339px;
+  left: 20px;
+  top: 375px;
+
+  background: #FFFFFF;
+
+}
+
+.img4 {
+  position: absolute;
+  width: 243px;
+  height: 168px;
+  left: 17px;
+  top: 10px;
+}
+
+.h4 {
+  position: absolute;
+  width: 117px;
+  height: 24px;
+  left: 80px;
+  top: 190px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+
+.card5 {
+  position: absolute;
+  width: 276px;
+  height: 339px;
+  left: 310px;
+  top: 375px;
+
+  background: #FFFFFF;
+}
+.card6 {
+  position: absolute;
+  width: 276px;
+  height: 339px;
+  left: 600px;
+  top: 375px;
+
+  background: #FFFFFF;
+
+}
+
+.text1 {
+  position: absolute;
+  width: 104px;
+  height: 24px;
+  left: 24px;
+  top: 40px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
+.text2 {
+  position: absolute;
+  width: 104px;
+  height: 24px;
+  left: 24px;
+  top: 80px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+.text3 {
+  position: absolute;
+  width: 104px;
+  height: 24px;
+  left: 24px;
+  top: 120px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+.text4 {
+  position: absolute;
+  width: 104px;
+  height: 24px;
+  left: 24px;
+  top: 160px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+.text5 {
+  position: absolute;
+  width: 104px;
+  height: 24px;
+  left: 24px;
+  top: 200px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+.text6 {
+  position: absolute;
+  width: 104px;
+  height: 24px;
+  left: 24px;
+  top: 240px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
+.footer{
+  position: absolute;
+  width: 1320px;
+  height: 270px;
+  left: 0px;
+  top: 816px;
+
+  background: #221F1F;
+}
+
+.logofot {
+  position: absolute;
+  width: 308px;
+  height: 239px;
+  left: 0px;
+  top: 40px;
+}
+
+.ayuda {
+  position: absolute;
+  width: 88px;
+  height: 36px;
+  left: 750px;
+  top: 40px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+  }
+
+.correo {
+  position: absolute;
+  width: 88px;
+  height: 36px;
+  left: 710px;
+  top: 90px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+}
+
+.redes {
+  position: absolute;
+  width: 88px;
+  height: 36px;
+  left: 1100px;
+  top: 40px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+}
+
+.facebook {
+  position: absolute;
+  width: 88px;
+  height: 36px;
+  left: 1100px;
+  top: 90px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+}
+
+.instagram {
+  position: absolute;
+  width: 88px;
+  height: 36px;
+  left: 1100px;
+  top: 130px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+}
+
+.Twitter {
+  position: absolute;
+  width: 88px;
+  height: 36px;
+  left: 1100px;
+  top: 170px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+}
+
+.log {
+  position: absolute;
+  width: 44px;
+  height: 39px;
+  left: 900px;
+  top: 17px;
+}
+
+.homerotext{
+  position: absolute;
+  width: 243px;
+  height: 36px;
+  left: 40px;
+  top: 290px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+}
+
+.iconup {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+}

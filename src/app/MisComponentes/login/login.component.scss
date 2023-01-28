@@ -1,0 +1,114 @@
+.fondo {
+  position: relative;
+  width: 1200px;
+  height: 630px;
+
+  background: #232222;
+}
+
+.input1 {
+  position: absolute;
+  width: 422px;
+  height: 51px;
+  left: 39px;
+  top: 360px;
+  text-decoration: none;
+
+  background: #D9D9D9;
+}
+
+.link{
+  position: absolute;
+  width: 69px;
+  height: 19px;
+  left: 216px;
+  top: 552px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #FFFFFF;
+
+}
+
+.input2 {
+  position: absolute;
+  width: 422px;
+  height: 51px;
+  left: 39px;
+  top: 426px;
+
+  background: #D9D9D9;
+}
+
+.button1 {
+  position: absolute;
+  width: 136px;
+  height: 51px;
+  left: 182px;
+  top: 491px;
+
+  background: #C1A821;
+}
+
+.register {
+  position: absolute;
+  width: 69px;
+  height: 19px;
+  left: 216px;
+  top: 552px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+}
+
+.logo {
+  position: absolute;
+  width: 257px;
+  height: 285px;
+  left: 112px;
+  top: 27px;
+}
+
+.login {
+  position: absolute;
+  width: 156px;
+  height: 73px;
+  left: 162px;
+  top: 227px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 73px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.imgfondo {
+  position: absolute;
+  width: 980px;
+  height: 750px;
+  left: 500px;
+  top: 0px;
+}
+
+.fondo2{
+  position: absolute;
+  width: 701px;
+  height: 630px;
+  left: 499px;
+  top: 0px;
+
+  background: rgba(0, 0, 0, 0.6);
+}
